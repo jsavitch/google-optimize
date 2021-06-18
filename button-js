@@ -1,0 +1,13 @@
+const mouseTarget = document.getElementById('ELEMENTID');
+mouseTarget.style.transition = "all 0.2s ease";
+
+mouseTarget.addEventListener('mouseenter', e => {
+  mouseTarget.style.background = '5px dotted orange';
+  mouseTarget.style.border = '1px solid #0ac0dd';
+
+});
+
+mouseTarget.addEventListener('mouseleave', e => {
+  mouseTarget.style.background = '1px solid #333';
+
+});
